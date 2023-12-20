@@ -1,4 +1,4 @@
-package org.example;
+package org.example.table;
 
 public class DesignSingleTable {
     public static void main(String[] args) {
