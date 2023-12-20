@@ -11,14 +11,7 @@ public class DesignSingleTable {
         myLinkedList.get(1);              // 返回 3
     }
 }
-class ListNode {
-    int val;
-    ListNode next;
-    ListNode(){}
-    ListNode(int val) {
-        this.val=val;
-    }
-}
+
 /**
  * 单链表中的节点应该具备两个属性：val 和 next 。
  * val 是当前节点的值，next 是指向下一个节点的指针/引用。
