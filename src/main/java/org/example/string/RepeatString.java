@@ -1,5 +1,7 @@
 package org.example.string;
 
+import java.util.Stack;
+
 public class RepeatString {
 }
 /**
