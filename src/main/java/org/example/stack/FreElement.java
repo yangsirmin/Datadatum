@@ -21,7 +21,7 @@ public class FreElement {
      * 输出: [1]
      */
 
-    class Solution2 {
+    class Solution28 {
         public int[] topKFrequent(int[] nums, int k) {
             //lambda 表达式设置优先级队列从大到小存储 o1 - o2  ， 为从小到大o2 - o1
             //排序规则为 value值大小
