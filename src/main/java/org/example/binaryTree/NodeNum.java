@@ -9,7 +9,7 @@ public class NodeNum {
      *
      * 完全二叉树的计算  2的n次方 - 1 ： 2 << n - 1    n为层数
      */
-    class Solution {
+    class Solution37 {
         public int countNodes(TreeNode root) {
             if (root == null){
                 return 0;
