@@ -37,7 +37,12 @@ public class Group {
                 result.add(new ArrayList<>(path));
                 return;
             }
-            for (int i = startIndex; i <= n; i++) {
+//            for (int i = startIndex; i <= n; i++) {
+//                path.add(i);
+//                backtracking(n, k, i + 1);
+//                path.removeLast();
+//            }
+            for (int i = startIndex; i <= n - (k - path.size()) + 1; i++) {
                 path.add(i);
                 backtracking(n, k, i + 1);
                 path.removeLast();
