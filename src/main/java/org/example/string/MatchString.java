@@ -1,9 +1,10 @@
 package org.example.string;
 
 public class MatchString {
-    public static void main(String[] args) {
-        new Solution22().strStr("aabaabaafa", "aabaaf");
-    }
+//    public static void main(String[] args) {
+//
+//        new Solution22().strStr("aabaabaafa", "aabaaf");
+//    }
 }
 /**
  * 给你两个字符串 haystack 和 needle ，
