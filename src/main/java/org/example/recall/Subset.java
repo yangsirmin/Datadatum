@@ -28,6 +28,7 @@ public class Subset {
             if (path.size() > nums.length){
                 return;
             }
+            //收集结果集，null也会收集
             result.add(new ArrayList<>(path));
             for (int i = startIndex; i < nums.length; i++) {
                 path.add(nums[i]);
