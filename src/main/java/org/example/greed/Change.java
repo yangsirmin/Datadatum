@@ -1,5 +1,7 @@
 package org.example.greed;
 
+import java.util.concurrent.Semaphore;
+
 public class Change {
     /**
      * 在柠檬水摊上，每一杯柠檬水的售价为 5 美元。顾客排队购买你的产品，（按账单 bills 支付的顺序）一次购买一杯。
